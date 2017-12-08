@@ -78,7 +78,7 @@ fmt.Println("My first method")
 {% common %}
 Whatever language you are using, the result will be the same.
 
-[](#lol)
+[](#head)
 ```bash
 $ My first method
 ```
@@ -86,7 +86,7 @@ $ My first method
 
 
 {% method %}
-## My first method
+## My first method 1
 
 My first method exposes how to print a message in JavaScript and Go.
 
