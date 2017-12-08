@@ -13,6 +13,7 @@
     * [Sending Data](AnnikkenAndee/SendingData.md)
     * [Receiving Data](AnnikkenAndee/ReceivingData.md)
     * [Responding to Events](AnnikkenAndee/RespondingToEvents.md)
+    * [API Reference](AnnikkenAndee/methods.md)
 * [Andee 101](AnnikkenAndee/Andee101.md)
 
 
