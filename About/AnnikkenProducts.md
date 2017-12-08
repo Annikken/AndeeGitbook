@@ -23,5 +23,5 @@ Annikken Andee connects the Micro:bit to your iOS and Android devices.<br>
 ![](/assets/gb-andee-microbit.png)
 
 ### AndeeMobile
-A programmable remote control car compatible with Arduino or Micro:bit.
+A programmable remote control car compatible with Arduino or Micro:bit.<br>
 ![](/assets/gb-andee-mobile.png)
