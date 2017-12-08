@@ -5,7 +5,8 @@ This documentation provides tutorials and API reference for the products listed 
 # Arduino Shields
 
 ### [Andee U](https://annikkenconnect.com/andee-u)
-![](/assets/gb-andee-u.jpg)
+Andee U connects to both iOS and Android devices.
+![](/assets/gb-andee-u.png)
 
 
 
