@@ -10,7 +10,7 @@
 
 * [Andee U/iOS/Android](AnnikkenAndee/README.md)
 
-* [Andee 101](AnnikkenAndee/READEME.md)
+* [Andee 101](AnnikkenAndee/README.md)
 
 
 ## Micro:bit
