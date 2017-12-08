@@ -1,6 +1,3 @@
-# My Awesome API
+# Annikken Andee
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
-
-asdfasdf
-
+Annikken Andee documentation provides tutorials and API references for creating widgets with the Annikken Andee Arduino Shields and the Micro:bit on your mobile device.
