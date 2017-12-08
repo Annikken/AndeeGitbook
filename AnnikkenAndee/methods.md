@@ -24,7 +24,7 @@ fmt.Println("My first method")
 {% common %}
 Whatever language you are using, the result will be the same.
 
-[asdf](#lol)
+[](#lol)
 ```bash
 $ My first method
 ```
