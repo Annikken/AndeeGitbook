@@ -5,18 +5,20 @@ This documentation provides tutorials and API reference for the products listed 
 # Arduino Shields
 
 ### [Andee U](https://annikkenconnect.com/andee-u)
-Andee U connects to both iOS and Android devices.
+Andee U connects to both iOS and Android devices.<br/>
 ![](/assets/gb-andee-u.png)
 
 ### Andee iOS
 Andee iOS connects to iOS Devices.
 
 ### [Andee Android](https://annikkenconnect.com/andee-android)
-Andee Android connects to Android devices.
-asdfasdf asdfa sdfasf asdf asdf asdf asdf asf asdfsfsaf
+Andee Android connects to Android devices.<br/>
+![](/assets/gb-andee-android.png)
 
 
 # Arduino Boards
+
+### [Andee 101](https://annikkenconnect.com/andee-101)
 
 
 # Micro:bit
