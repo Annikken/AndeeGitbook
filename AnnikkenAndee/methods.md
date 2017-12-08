@@ -86,7 +86,7 @@ $ My first method
 
 
 {% method %}
-## My first method 1
+## liek a sombodee
 
 My first method exposes how to print a message in JavaScript and Go.
 
