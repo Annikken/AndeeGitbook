@@ -2,12 +2,16 @@
 
 ## Getting Started
 
+* [Getting Started](GettingStarted/Introduction.md)
 * [My Awesome API](README.md)
-* [rr](rr.md)
-* fsdg
+
+
+
+
 
 ## Annikken Andee
 
 * [Andee](methods.md)
 
 ## Micro:bit
+
