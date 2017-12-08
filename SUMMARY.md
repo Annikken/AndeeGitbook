@@ -3,15 +3,14 @@
 ## Getting Started
 
 * [Getting Started](GettingStarted/Introduction.md)
-* [My Awesome API](README.md)
-
-
-
-
+* [Andee Setup](GettingStarted/AndeeSetup.md)
+* [Micro:bit Setup](GettingStarted/MicrobitSetup.md)
 
 ## Annikken Andee
 
-* [Andee](methods.md)
+* [Andee U/iOS/Android](AnnikkenAndee/README.md)
+
+
 
 ## Micro:bit
 
