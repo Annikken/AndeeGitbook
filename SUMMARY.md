@@ -8,9 +8,9 @@
 
 ## Annikken Andee
 
-* [Andee U/iOS/Android](AnnikkenAndee/README.md)
-
-* [Andee 101](AnnikkenAndee/README.md)
+* [Andee U/iOS/Android](AnnikkenAndee/AndeeBoards.md)
+    * [Creating Widgets](AnnikkenAndee/CreatingWidgets.md)
+* [Andee 101](AnnikkenAndee/Andee101.md)
 
 
 ## Micro:bit
