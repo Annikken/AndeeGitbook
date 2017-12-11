@@ -8,7 +8,7 @@
 
 ## Getting Started
 
-* [Introduction](Introduction.md)
+* [Introduction](GettingStarted/Introduction.md)
 * [Andee Setup](GettingStarted/AndeeSetup.md)
 * [Micro:bit Setup](GettingStarted/MicrobitSetup.md)
 
