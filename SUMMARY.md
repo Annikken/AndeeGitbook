@@ -2,7 +2,7 @@
 
 ## About
 
-* [Preface](About/Preface.md)
+* [Preface](README.md)
 * [Andee Products](About/AnnikkenProducts.md)
 
 ## Getting Started
