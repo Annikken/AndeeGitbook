@@ -9,6 +9,9 @@
 
 * [Introduction](GettingStarted/Introduction.md)
 * [Andee Setup](GettingStarted/AndeeSetup.md)
+  * [Installing Arduino IDE](GettingStarted/AndeeSetup.md)
+  * [Installing Annikken Andee Library](GettingStarted/AndeeSetup.md)
+  * [Installing/Upgrading Firmware](GettingStarted/AndeeSetup.md)
 * [Micro:bit Setup](GettingStarted/MicrobitSetup.md)
 
 ## Annikken Andee
