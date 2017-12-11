@@ -1,3 +1,5 @@
-# My Awesome API
+# Annikken Andee Documentation
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Welcome to Annikken Andee documentation. The documentation is structured with Getting Started followed by Annikken Andee Products. We recommend reading through the Getting Started section for your relevant product before proceeding the product documentation.
+
+![](/assets/gb-andee-boards.png)

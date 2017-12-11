@@ -13,7 +13,6 @@
 
 ## Annikken Andee
 
-* [Introduction](README.md)
 * [Andee U/iOS/Android](AnnikkenAndee/AndeeBoards.md)
   * [Creating Widgets](AnnikkenAndee/CreatingWidgets.md)
   * [Sending Data](AnnikkenAndee/SendingData.md)
