@@ -6,3 +6,8 @@ If you have just gotten your Annikken Andee shield, go through each step to ensu
 
 
 ## Installing Arduino IDE {#arduinoide}
+
+Coding for Arduino and Annikken Andee is done using the Arduino Integrated Development Environment(IDE). Before you proceed, you should ensure that you have the Arduino IDE installed on your computer. If the Arduino IDE is not installed, please follow the steps below:<br>
+
+
+
