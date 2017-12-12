@@ -13,6 +13,7 @@
   * [Installing Annikken Andee Library](GettingStarted/AndeeSetup.md)
   * [Installing/Upgrading Firmware](GettingStarted/AndeeSetup.md)
 * [Micro:bit Setup](GettingStarted/MicrobitSetup.md)
+  * [Installing Andee Pxt Package](GettingStarted/MicrobitSetup.md)
 
 ## Annikken Andee
 
