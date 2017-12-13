@@ -1,6 +1,6 @@
 # Annikken Andee Shield Setup
 
-This section will guide you in setting up your new Annikken Andee shield for your Arduino projects.<br>
+This section will guide you in setting up your new Annikken Andee shield for your Arduino projects.
 
 If you have just gotten your Annikken Andee shield, go through each step to ensure a smooth setup or you can skip to the relevant topic if you already have completed some of it.
 
