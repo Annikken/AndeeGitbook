@@ -20,13 +20,15 @@
 ## Annikken Andee
 
 * [Introduction](AnnikkenAndee/Introduction.md)
-* [Creating Widgets](AnnikkenAndee/Examples.md)
-* [Sending Data](AnnikkenAndee/Examples.md)
-* [Receiving Data](AnnikkenAndee/Examples.md)
-* [Responding to Events](AnnikkenAndee/Examples.md)
-* [API Reference](AnnikkenAndee/Examples.md)
-  * [Get lol](AnnikkenAndee/methods.md#liek-a-sombodee)
- 
+
+* [Annikken Andee U/iOS/Android](AnnikkenAndee/Examples.md)
+  * [Examples](AnnikkenAndee/Examples.md)
+    * [Creating Widgets](AnnikkenAndee/Examples.md)
+    * [Sending Data](AnnikkenAndee/Examples.md)
+    * [Receiving Data](AnnikkenAndee/Examples.md)
+    * [Responding to Events](AnnikkenAndee/Examples.md)
+  * [API Reference](AnnikkenAndee/Examples.md)
+
 * [Andee 101](AnnikkenAndee/Andee101.md)
 
 ## Micro:bit
