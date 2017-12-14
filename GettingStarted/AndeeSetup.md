@@ -17,5 +17,6 @@ If the Arduino IDE is not installed, proceed to download the Arduino IDE at http
 The Annikken Andee Library can be easily installed by using Arduino IDE's built-in library manager. Follow these steps to install the Andee Library.
 
 1. In your Arduino IDE, select Sketch >> Include Library >> Manage Libraries.
+    ![](/assets/libraryManager26917.png)
 
-![](/assets/libraryManager26917.png)
+2. Filter the library search by typing "andee" into the search box in the top right corner.
