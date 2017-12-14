@@ -33,7 +33,7 @@ Annikken regularly releases new firmware updates for the Andee U, iOS and Androi
 * 1x Micro SD Card.
 * 1x Micro SD Card Reader/Writer (or a computer capable of reading/writing Micro SD Cards).
 * 1x Arduino Board.
-* 1x Annikken Andee U/iOS/Android.
+* 1x Annikken Andee U/iOS/Android shield.
 
 #### Andee U/Android {#andee-u-android}
 
@@ -53,7 +53,7 @@ This section provides instructions for firmware installation/upgrade for Annikke
 
 6. Now let go of the "BOOT" button. You should see that "CONN" and "STATUS" LEDS are now flashing together.
 
-7. Insert the Micro SD card containing "image.hex" you loaded earlier into the Annikken Andee's SD card slot. Annikken Andee will automatically start updating. The LEDs will flash red and green consecutively. Do not power down the board at this time.
+7. Insert the Micro SD card containing "image.hex" you loaded earlier into the Annikken Andee's SD card slot. Annikken Andee will automatically start updating. The LEDs will flash red and green consecutively. Do not power down the shield at this time.
 
 8. Once the update/installation has completed, the "CONN" and "STATUS" LEDs will start to blink green again.
 
@@ -65,11 +65,24 @@ You're done! Your Annikken Andee Shield is now updated with the latest firmware!
 
 This section provides instructions for firmware installation/upgrade for Annikken Andee iOS shields. Please follow the steps:
 
-1. Download the latest firmware for Andee iOS here.
+1. Download the latest firmware for Andee iOS [here](https://annikkenconnect.com/support/andee-ios) TODO: CHANGE LINK TO DL LINK SUPPORT PAGE.
+
+2. Extract the zip file and copy "image.hex" into your Micro SD card.
+
+3. Connect the Annikken Andee to the Arduino and power it up. You should see an LED blinking. The Andee is in "Normal                 Mode".
+
+4. We will now need to put the Andee into "Update Mode". Press and hold down the "BTN_0" and "BTN_1" buttons together. Don’t let go of them yet!
+
+5. While still holding down the "BTN_1" button, release the "BTN_0" button.
+
+6. Now let go of the "BTN_1" button. You should see that "CONN" and "STATUS" LEDS are now flashing together.
+
+7. Insert Micro SD card containing "image.hex" you loaded earlier into the Annikken Andee's SD card slot. Annikken Andee will automatically start updating. The LEDs will flash red and green consecutively. Do not power down the shield at this time.
+
+8. Once the update/installation has completed, the "CONN" and "STATUS" LEDs will start to blink green again.
 
 
-
-
+You're done! Your Annikken Andee iOS shield is now updated with the latest firmware!
 
 
 
