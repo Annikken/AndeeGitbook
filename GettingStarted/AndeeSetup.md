@@ -27,3 +27,32 @@ The Annikken Andee Library can be easily installed by using Arduino IDE's built-
 
 
 ## Installing Annikken Andee Firmware {#install-andee-firmware}
+
+Annikken regularly releases new firmware updates for the Andee U, iOS and Android. It is recommended that you update the firmware on your shield when a new update is released. To do so, you require the following items:
+
+* 1x Micro SD Card.
+* 1x Micro SD Card Reader/Writer (or a computer capable of reading/writing Micro SD Cards).
+* 1x Arduino Board.
+* 1x Annikken Andee U/iOS/Android.
+
+#### Andee U/Android {#andee-u-android}
+
+1. Download the latest firmware from the link above.
+
+
+
+#### Andee iOS {#andee-ios}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

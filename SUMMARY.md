@@ -12,6 +12,8 @@
   * [Installing Arduino IDE](GettingStarted/AndeeSetup.md#install-arduino-ide)
   * [Installing Annikken Andee Library](GettingStarted/AndeeSetup.md#install-andee-library)
   * [Installing/Upgrading Firmware](GettingStarted/AndeeSetup.md#install-andee-firmware)
+    * [Andee U/Android](GettingStarted/AndeeSetup.md#andee-u-android)
+    * [Andee iOS](GettingStarted/AndeeSetup.md#andee-ios)
 * [Micro:bit Setup](GettingStarted/MicrobitSetup.md)
   * [Installing Andee Pxt Package](GettingStarted/MicrobitSetup.md)
 
