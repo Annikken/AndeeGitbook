@@ -84,7 +84,7 @@ This section provides instructions for firmware installation/upgrade for Annikke
 
 You're done! Your Annikken Andee iOS shield is now updated with the latest firmware!
 
-
+ 
 
 
 
