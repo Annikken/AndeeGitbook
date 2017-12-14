@@ -24,3 +24,5 @@ The Annikken Andee Library can be easily installed by using Arduino IDE's built-
     
 3. Select the latest version from the drop down menu and hit install.<br>
     ![](/assets/install-andee-step-3.png)
+
+
