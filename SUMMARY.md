@@ -20,8 +20,8 @@
 ## Annikken Andee
 
 * [Introduction](AnnikkenAndee/Introduction.md)
-
-* [Annikken Andee U/iOS/Android](AnnikkenAndee/Examples.md)
+* [Andee U/iOS/Android](AnnikkenAndee/AndeeBoards.md)
+  * [Before You Code](AnnikkenAndee/BeforeYouCode.md)
   * [Examples](AnnikkenAndee/Examples.md)
     * [Creating Widgets](AnnikkenAndee/Examples.md)
     * [Sending Data](AnnikkenAndee/Examples.md)
