@@ -24,6 +24,6 @@ Andee communication is required to be started by code. Include the following cod
 
 ```cpp
 void setup() {
-  Andee.begin();  // Setup communication between Annikken Andee and Arduino
+    Andee.begin();  // Setup communication between Annikken Andee and Arduino
 }
 ```

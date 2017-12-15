@@ -39,36 +39,36 @@ You can set the location of your widget by one of two methods:
   
   * Cartesian based system.
   This system is based on x and y coordinate with its origin at the top left corner, along with its height and width. 
-  ```cpp
-  widget1.setCoord(25, 25, 50, 25);
-  ```
+    ```cpp
+    widget1.setCoord(25, 25, 50, 25);
+    ```
   For an in depth explanation on setCoord() refer to this [documentation](/AnnikkenAndee/methods.md#setcoord)
 
 3. **Type**
 The Andee library provides a few different types of UI. To see how the widgets look like, refer to [Andee U/iOS](https://annikkenconnect.com/andee-u) or [Andee Android](https://annikkenconnect.com/andee-android).
-```cpp
-widget1.setType(DATA_OUT);
-```
+    ```cpp
+    widget1.setType(DATA_OUT);
+    ```
 For an in depth explanation on setType() and options for type, refer to this [documentation](/AnnikkenAndee/methods.md#settype)
 
 4. **Colors**
 Every component of the widget can be customised by color.
 To set the color of the titles.
-```cpp
-widget1.setTitleTextColor("FFAEDE94");
-```
+    ```cpp
+    widget1.setTitleTextColor("FFAEDE94");
+    ```
 To set the background color for title region.
-```cpp
-widget1.setTitleColor("FFFFDAAA");
-```
+    ```cpp
+    widget1.setTitleColor("FFFFDAAA");
+    ```
 To set body text color.
-```cpp
-widget1.setTextColor("FFFFDAAA");
-```
+    ```cpp
+    widget1.setTextColor("FFFFDAAA");
+    ```
 To set body background color.
-```cpp
-widget1.setColor("FF6D92A0");
-```
+    ```cpp
+    widget1.setColor("FF6D92A0");
+    ```
 For an in depth explanation to set colours and predefined colors, refer to this [documentation](/AnnikkenAndee/methods.md#setcolor)
 
 5. **Display Data**
@@ -78,6 +78,26 @@ widget1.setTitle("Sensor A103");
 widget1.setData("Proximity Distance: 180");
 widget1.setUnits("cm");
 ```
+
+
+Now lets combine what we have shown into a single code snippet.
+```cpp
+void setup() {
+    Andee.begin();
+    
+    widget1.setId(0);
+    widget1.setCoord(25, 25, 50, 25);
+    widget1.setType(DATA_OUT);
+    widget1.setTitleTextColor("FFAEDE94");
+    widget1.setTitleColor("FFFFDAAA");
+    widget1.setTextColor("FF9A73A9");
+    widget1.setColor("FF6D92A0");
+
+    
+}
+```
+
+
 
 ## Sending Data {#sending-data}
 
