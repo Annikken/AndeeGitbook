@@ -22,10 +22,10 @@ Lets go through each of these properties.
 
 1. **Unique ID**
 To set the id:
-```cpp
-widget1.setId(0);
-widget2.setId(1);
-```
+    ```cpp
+    widget1.setId(0);
+    widget2.setId(1);
+    ```
 **Note:** The integer id for each widget should be unique and different. Declaring a widget as the same id as another will cause the latest widget to override the other.
 
 2. **Screen Location**
@@ -98,6 +98,15 @@ void setup() {
 }
 ```
 
+Certain types of widgets require extra methods for setup. They will be discussed below.
+
+### Creating Buttons {#creating-buttons}
+Buttons have 2 modes. A single press mode which waits for a response from the Andee shield and a multipress mode that can be press continuously.
+
+To set the button as single press mode. Use the following code. If the code is not specified. The button will be treated as  multipress mode by default
+```cpp
+button.requireAck(true);
+```
 
 
 ## Sending Data {#sending-data}
