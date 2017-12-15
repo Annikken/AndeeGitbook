@@ -73,11 +73,11 @@ For an in depth explanation to set colours and predefined colors, refer to this 
 
 5. **Display Data**
 To display text or data. We use the following methods.
-```cpp
-widget1.setTitle("Sensor A103");
-widget1.setData("Proximity Distance: 180");
-widget1.setUnits("cm");
-```
+    ```cpp
+    widget1.setTitle("Sensor A103");
+    widget1.setData("No readings received.");
+    widget1.setUnits("cm");
+    ```
 
 
 Now lets combine what we have shown into a single code snippet.
@@ -92,8 +92,9 @@ void setup() {
     widget1.setTitleColor("FFFFDAAA");
     widget1.setTextColor("FF9A73A9");
     widget1.setColor("FF6D92A0");
-
-    
+    widget1.setTitle("Sensor A103");
+    widget1.setData("No readings received.");
+    widget1.setUnits("cm");
 }
 ```
 
