@@ -15,7 +15,7 @@ When creating a new widget, the most important properties that you need to set a
 1. **Unique ID**
 2. **Screen location**
 3. **Type**
-4. **Colours**
+4. **Colors**
 5. **Display data**
  
 Lets go through each of these properties.
@@ -51,11 +51,26 @@ widget1.setType(DATA_OUT);
 ```
 For an in depth explanation on setType() and options for type, refer to this [documentation](/AnnikkenAndee/methods.md#settype)
 
-4. **Colours**
+4. **Colors**
+Every component of the widget can be customised by color.
+To set the color of the titles.
+```cpp
+widget1.setTitleTextColor("FFAEDE94");
+```
+To set the background color for title region.
+```cpp
+widget1.setTitleColor("FFFFDAAA");
+```
+To set body text color.
+```cpp
+widget1.setTextColor("FFFFDAAA");
+```
+To set body background color.
+```cpp
+widget1.setColor("FF6D92A0");
+```
 
 
-
-  
   
 
 
