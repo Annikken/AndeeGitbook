@@ -24,6 +24,12 @@
   * [Before You Code](AnnikkenAndee/BeforeYouCode.md)
   * [Examples](AnnikkenAndee/Examples.md)
     * [Creating Widgets](AnnikkenAndee/Examples.md#creating-widgets)
+      * [Creating Buttons](AnnikkenAndee/Examples.md#creating-widgets#creating-buttons)
+      * [Creating Input Buttons](AnnikkenAndee/Examples.md#creating-widgets#creating-input-buttons)
+      * [Creating Analog Dials](AnnikkenAndee/Examples.md#creating-widgets#creating-analog-dials)
+      * [Creating Sliders](AnnikkenAndee/Examples.md#creating-widgets#creating-sliders)
+
+
     * [Sending Data](AnnikkenAndee/Examples.md#sending-data)
     * [Receiving Data](AnnikkenAndee/Examples.md#receiving-data)
     * [Responding to Events](AnnikkenAndee/Examples.md#responding-to-events)

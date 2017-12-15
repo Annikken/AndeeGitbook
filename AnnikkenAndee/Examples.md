@@ -133,11 +133,43 @@ You can set a initial date to display for this widget.
 dateWidget.setDefaultDate(25, DEC, 2013);
 ```
 
+### Creating Analog Dials {#creating-analog-dials}
+Setting the colors for Analog Dials uses a different set methods compared to other widgets. To set the colours, use the code below.
+```cpp
+analogDial.setBaseColor(LIME_GREEN);
+analogDial.setActiveColor(GREEN);
+```
+You also have to set the minimum and maximum value of the dial.
+```cpp
+analogDial.setMinMax(0, 100);
+```
 
-
-
-
-
+### Creating Sliders {#creating-sliders}
+Sliders require a number of methods to get going.
+To set the slider's minimum and maximum values.
+```cpp
+slider.setSliderMinMax(0, 255, 0);
+```
+To set the initial value.
+```cpp
+slider.setSliderInitialValue(100);
+```
+To set the incremental intervals for each increase in value.
+```cpp
+slider.setSliderNumIntervals(256);
+```
+The slider have 2 modes in which it can operate: `ON_VALUE_CHANGE` AND `ON_FINGER_UP`.
+`ON_VALUE_CHANGE` means that the shield is updated immediately with new data when the slider is moved.
+`ON_FINGER_UP` means that the shield will only be updated when the finger is lifted up from the screen after dragging the slider.
+To set the mode.
+```cpp
+slider.setSliderReportMode(ON_VALUE_CHANGE);
+```
+Setting the colors for sliders uses a different set methods compared to other widgets. To set the colours, use the code below.
+```cpp
+slider.setActiveColor(BLUE);
+slider.setBaseColor(DARK_BLUE);
+```
 
 ## Sending Data {#sending-data}
 
