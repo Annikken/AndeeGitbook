@@ -103,10 +103,40 @@ Certain types of widgets require extra methods for setup. They will be discussed
 ### Creating Buttons {#creating-buttons}
 Buttons have 2 modes. A single press mode which waits for a response from the Andee shield and a multipress mode that can be press continuously.
 
-To set the button as single press mode. Use the following code. If the code is not specified. The button will be treated as  multipress mode by default
+The button defaults to single press when instantiated. To set the button as multi press mode. Use the following code.
 ```cpp
-button.requireAck(true);
+button.setInputMode(ACK);
 ```
+
+### Creating Input Buttons {#creating-input-buttons}
+Input buttons consists of the following:
+* Keyboard Input Button
+* Time Input Button
+* Date Input Button
+
+**Keyboard Input Button**
+Keyboard input can activate different keyboard modes: `KEYBOARD_IN`, `ALPHA_NUMERIC`, `ALPHA_NUMERIC_PW`, `NUMERIC`, `NUMERIC_PW`.
+You can set the modes with the code below.
+```cpp
+keyboardWidget.setInputMode(KEYBOARD_IN);
+```
+
+**Time Input Button**
+You can set a initial time to display for this widget.
+```cpp
+timeWidget.setDefaultTime(05,30,00);
+```
+
+**Date Input Button**
+You can set a initial date to display for this widget.
+```cpp
+dateWidget.setDefaultDate(25, DEC, 2013);
+```
+
+
+
+
+
 
 
 ## Sending Data {#sending-data}
