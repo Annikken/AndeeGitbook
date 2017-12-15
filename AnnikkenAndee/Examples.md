@@ -70,8 +70,12 @@ To set body background color.
 widget1.setColor("FF6D92A0");
 ```
 
+For an in depth explanation to set colours and predefined colors, refer to this [documentation](/AnnikkenAndee/methods.md#setcolor)
 
-  
+
+
+
+
 
 
 ## Sending Data {#sending-data}
