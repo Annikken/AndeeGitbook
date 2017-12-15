@@ -69,14 +69,15 @@ To set body background color.
 ```cpp
 widget1.setColor("FF6D92A0");
 ```
-
 For an in depth explanation to set colours and predefined colors, refer to this [documentation](/AnnikkenAndee/methods.md#setcolor)
 
-
-
-
-
-
+5. **Display Data**
+To display text or data. We use the following methods.
+```cpp
+widget1.setTitle("Sensor A103");
+widget1.setData("Proximity Distance: 180");
+widget1.setUnits("cm");
+```
 
 ## Sending Data {#sending-data}
 
