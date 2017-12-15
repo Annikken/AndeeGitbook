@@ -1,3 +1,3 @@
 # Tutorials, Examples and API Documentation
 
-This section provides tutorials, examples and documentation for Andee Shields. The sections is divided into Andee U/iOS/Android and Andee 101. Have a look at "Before You Code" section for essentials before starting your project. If you want to learn how to create widgets or handle events and data, have a look at the examples provided. You can also jump straight into our API documentation for Andee methods.
+This section provides tutorials, examples and documentation for Andee Shields. The sections is divided into Andee U/iOS/Android and Andee 101. Have a look at "Before You Code" section for essentials before starting your project. If you want to learn how to create widgets or handle events and data, have a look at the examples provided. You can also jump straight into our API documentation for Andee methods. 
