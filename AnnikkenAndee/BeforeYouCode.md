@@ -13,7 +13,7 @@ For every project using Annikken Andee, we require the following libraries:
 
 To include them in the project. Insert the following code snippet at the top of your Arduino sketch.
 
-```
+```cpp
 #include <SPI.h>
 #include <Andee.h>
 ```
@@ -22,7 +22,7 @@ To include them in the project. Insert the following code snippet at the top of 
 
 Andee communication is required to be started by code. Include the following code into your project. This code only needs to be called once. Therefore, we will add it to the setup() function of Arduino.
 
-```
+```cpp
 void setup() {
   Andee.begin();  // Setup communication between Annikken Andee and Arduino
 }
