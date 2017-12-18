@@ -28,9 +28,7 @@
       * [Creating Input Buttons](AnnikkenAndee/Examples.md#creating-widgets#creating-input-buttons)
       * [Creating Analog Dials](AnnikkenAndee/Examples.md#creating-widgets#creating-analog-dials)
       * [Creating Sliders](AnnikkenAndee/Examples.md#creating-widgets#creating-sliders)
-
-
-    * [Sending Data](AnnikkenAndee/Examples.md#sending-data)
+    * [Updating The Widget](AnnikkenAndee/Examples.md#updating-the-widget)
     * [Receiving Data](AnnikkenAndee/Examples.md#receiving-data)
     * [Responding to Events](AnnikkenAndee/Examples.md#responding-to-events)
   * [API Reference](AnnikkenAndee/Examples.md)

@@ -152,7 +152,7 @@ slider.setSliderMinMax(0, 255, 0);
 ```
 To set the initial value.
 ```cpp
-slider.setSliderInitialValue(100);
+slider.moveSliderToValue(100);
 ```
 To set the incremental intervals for each increase in value.
 ```cpp
@@ -171,13 +171,37 @@ slider.setActiveColor(BLUE);
 slider.setBaseColor(DARK_BLUE);
 ```
 
-## Sending Data {#sending-data}
+## Updating The Widget {#updating-the-widget}
+Sending data to your mobile device requires setting new content for your widget and updating it.
+By setting new content, you can change text colors, background colors and text. 
 
+For example, you can change body color and data text.
+```cpp
+widget1.setData("New incoming data");
+widget1.setColor("FF6D92A0");
+```
 
-
+To update the widget.
+```cpp
+widget1.update();
+```
+**Note**: ```update()``` is a resource intensive process. It is recommend to only update a widget if it is needed
 
 ## Receiving Data {#receiving-data}
 
 
 
 ## Responding to Events {#responding-to-events}
+
+
+
+
+
+
+
+
+
+
+
+
+
