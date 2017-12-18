@@ -175,19 +175,25 @@ slider.setBaseColor(DARK_BLUE);
 Sending data to your mobile device requires setting new content for your widget and updating it.
 By setting new content, you can change text colors, background colors and text. 
 
-For example, you can change body color and data text.
+For example, first you can change body color and data text.
 ```cpp
 widget1.setData("New incoming data");
 widget1.setColor("FF6D92A0");
 ```
 
-To update the widget.
+Next, to update the widget.
 ```cpp
 widget1.update();
 ```
 **Note**: ```update()``` is a resource intensive process. It is recommend to only update a widget if it is needed
 
 ## Receiving Data {#receiving-data}
+Widgets such as button, slider, button inputs take inputs from your mobile devices. To process this inputs on your Arduino, we need to receive that data.
+
+### Button
+
+
+
 
 
 
