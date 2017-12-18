@@ -191,6 +191,28 @@ widget1.update();
 Widgets such as button, slider, button inputs take inputs from your mobile devices. To process this inputs on your Arduino, we need to receive that data.
 
 ### Button
+You can check if button has been pressed by using ```isPressed()```.
+```cpp
+if (button.isPress()) {
+    // turn on lights
+}
+```
+You also can check the number of times the button has been pressed in a short duration
+```cpp
+if (button.isPress() >= 2) {
+    // turn on hall lights
+} else {
+    // turn on kitchen lights
+}
+
+```
+
+### Slider
+To get the slider value
+```cpp
+int sliderIntValue = sliderInt.getSliderValue();
+float sliderFltValue = sliderFloat.getSliderValue();
+```
 
 
 
