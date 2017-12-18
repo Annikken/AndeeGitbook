@@ -190,7 +190,7 @@ widget1.update();
 ## Receiving Data {#receiving-data}
 Widgets such as button, slider, button inputs take inputs from your mobile devices. To process this inputs on your Arduino, we need to receive that data.
 
-### Button
+**Button**
 You can check if button has been pressed by using ```isPressed()```.
 ```cpp
 if (button.isPress()) {
@@ -207,16 +207,41 @@ if (button.isPress() >= 2) {
 
 ```
 
-### Slider
+**Slider**
 To get the slider value
 ```cpp
 int sliderIntValue = sliderInt.getSliderValue();
 float sliderFltValue = sliderFloat.getSliderValue();
 ```
 
+**Keyboard Input Button**
+First, we need to declare an array of characters to store data in memory.
+```cpp
+char userInput[32];
+```
+Next, we have to clear the memory from any data previously stored inside.
+```cpp
+memset(userInput, 0x00, 32);
+```
+Finally, we will get the data and store it inside userInput.
+```cpp
+textInputButton.getKeyboardMessage(userInput);
+```
 
-
-
+**Time Input Button**
+First, we need to declare an array of characters to store data in memory and variables to store integers.
+```cpp
+int hh, mm, ss;
+char tempStringTime[20];
+```
+Next, we will extract the hour, minute and seconds data into the ```int``` variables.
+```cpp
+timeInputButton.getTimeInput(&hh, &mm, &ss);
+```
+Lastly, we can combine the data into a string as declared before.
+```cpp
+sprintf(tempString, "%02d:%02d:%02d", hh, mm, ss);
+```
 
 
 ## Responding to Events {#responding-to-events}
