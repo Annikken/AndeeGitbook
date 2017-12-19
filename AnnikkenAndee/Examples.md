@@ -204,7 +204,6 @@ if (button.isPress() >= 2) {
 } else {
     // turn on kitchen lights
 }
-
 ```
 
 **Slider**
@@ -243,6 +242,20 @@ Lastly, we can combine the data into a string as declared before.
 sprintf(tempString, "%02d:%02d:%02d", hh, mm, ss);
 ```
 
+**Date Input Button**
+First, we need to declare an array of characters to store data in memory and variables to store integers.
+```cpp
+int dd, mm, yyyy;
+char tempStringDate[20];
+```
+Next, we will extract the hour, minute and seconds data into the ```int``` variables.
+```cpp
+timeInputButton.getTimeInput(&dd, &mm, &yyyy);
+```
+Lastly, we can combine the data into a string as declared before.
+```cpp
+sprintf(tempString, "%02d/%02d/%02d", dd, mm, yyyy);
+```
 
 ## Responding to Events {#responding-to-events}
 
