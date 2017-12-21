@@ -69,8 +69,8 @@
                     * [Set Default Time](AnnikkenAndee/AndeeAPI.md#settime)
                     * [Get Time](AnnikkenAndee/AndeeAPI.md#gettime)
 
-
 * [Andee 101](AnnikkenAndee/Andee101.md)
+    * [API Reference](AnnikkenAndee/Andee101API.md)
 
 ## Micro:bit
 
