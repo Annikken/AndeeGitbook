@@ -1,7 +1,7 @@
-# Annikken Andee Library
+# Annikken Andee 101 Library
 These are all the functions that can be found in the Andee Library
 
-## Andee functions {#andeefunc}
+## Andee 101 functions {#andeefunc}
 The `Andee` Class has general functions that affects the way the Andee Shield works or what it does.
 
 {% method %}
@@ -9,15 +9,11 @@ The `Andee` Class has general functions that affects the way the Andee Shield wo
 ```cpp
 class void begin()
 ```
-This function is required to be called before calling any other `Andee` functions. This will setup the SPI communication on the Arduino Shield. The Slave Select pin will default to pin 8.
-```cpp
-class void begin(pin)
-```
-If the `Andee` Slave Select pin conflicts with another shield, you can use argument `pin` to change the `Andee` Slave Select pin.
+This function is required to be called before calling any other `Andee101` functions. This will setup the BLE GATT settings
+
 ##### Example
 ```cpp
 Andee.begin();
-Andee.begin(5);
 ```
 {% endmethod %}
 
@@ -26,8 +22,8 @@ Andee.begin(5);
 ```cpp
 class void setName(name)
 ```
-This function will change the name of the Andee Shield. This name will appear when scanning for your Andee Shield in the app. Only works on Firmware 2.00 and above.
-`name` is a `Character Array`
+This function will change the name of the Arduino 101. This name will appear when scanning for your Arduino 101 on the Andee app
+`name` is a `Character Array`. Only 8 `Characters` allowed
 ##### Example
 ```cpp
 Andee.setName("My New Name");
@@ -439,10 +435,7 @@ class void setTitleTextColor(color)
 ```
 This is to set widget title text color<br/>
 
-`color` is a `Character Array`. `color` should be a color hex in the form of AARRGGBB, where A is alpha, R is red, g is green and B is blue. For example, "FFFF0000" is red. There is also macros that can be used. All the possible macros will be listed [here]().<br/>
-`TEXT_LIGHT`, `TEXT_DARK`, `PINK`, `LIGHT_PINK`, `HOT_PINK`, `DEEP_PINK`, `PALE_VIOLET_RED`, `MEDIUM_VIOLET_RED`, `LIGHT_SALMON`, `SALMON`, `DARK_SALMON`, `LIGHT_CORAL`, `INDIAN_RED`, `CRIMSON`, `FIRE_BRICK`, `DARK_RED`, `RED`, `ORANGE_RED`, `TOMATO`, `CORAL`, `DARK_ORANGE`, `ORANGE`, `GOLD`, `YELLOW`, `LIGHT_YELLOW`, `LEMON_CHIFFON`, `LIGHT_GOLDENROD_YELLOW`, `PAPAYA_WHIP`, `MOCCASIN`, `PEACH_PUFF`, `PALE_GOLDENROD`, `KHAKI`, `DARK_KHAKI`, `CORNSILK`, `BLANCHED_ALMOND`, `BISQUE`, `NAVAJO_WHITE`, `WHEAT`, `BURLYWOOD`, `TAN`, `ROSY_BROWN`, `SANDY_BROWN`, `GOLDENROD`, `DARK_GOLDENROD`, `PERU`, `CHOCOLATE`, `SADDLE_BROWN`, `SIENNA`, `BROWN`, `MAROON`, `DARK_OLIVE_GREEN`, `OLIVE`, `OLIVE_DRAB`, `YELLOW_GREEN`, `LIME_GREEN`, `LIME`, `LAWN_GREEN`, `CHARTREUSE`, `GREEN_YELLOW`, `SPRING_GREEN`, `MEDIUM_SPRING_GREEN`, `LIGHT_GREEN`, `PALE_GREEN`, `DARK_SEA_GREEN`, `MEDIUM_SEA_GREEN`, `SEA_GREEN`, `FORREST_GREEN`, `GREEN`, `DARK_GREEN`, `MEDIUM_AQUAMARINE`, `AQUA`, `CYAN`, `LIGHT_CYAN`, `PALE_TURQUOISE`, `AQUAMARINE`, `TURQUOISE`, `MEDIUM_TURQUOISE`, `DARK_TURQUOISE`, `LIGHT_SEA_GREEN`, `CADET_BLUE`, `DARK_CYAN`, `TEAL`, `LIGHT_STEEL_BLUE`, `POWDER_BLUE`, `LIGHT_BLUE`, `SKY_BLUE`, `LIGHT_SKY_BLUE`, `DEEP_SKY_BLUE`, `DODGER_BLUE`, `CORNFLOWER_BLUE`, `STEEL_BLUE`, `ROYAL_BLUE`, `BLUE`, `MEDIUM_BLUE`, `DARK_BLUE`, `NAVY`, `MIDNIGHT_BLUE`, `LAVENDER`, `THISTLE`, `PLUM`, `VIOLET`, `ORCHID`, `FUCHSIA`, `MAGENTA`, `MEDIUM_ORCHID`, `MEDIUM_PURPLE`, `BLUE_VIOLET`, `DARK_VIOLET`, `DARK_ORCHID`, `DARK_MAGENTA`, `PURPLE`, `INDIGO`, `DARK_SLATE_BLUE`, `SLATE_BLUE`, `MEDIUM_SLATE_BLUE`, `WHITE`, `SNOW`, `HONEYDEW`, `MINT_CREAM`, `AZURE`, `ALICE_BLUE`, `GHOST_WHITE`, `WHITE_SMOKE`, `SEASHELL`, `BEIGE`, `OLD_LACE`, `FLORAL_WHITE`, `IVORY`, `ANTIQUE_WHITE`, `LINEN`, `LAVENDER_BLUSH`, `MISTY_ROSE`, `GAINSBORO`, `LIGHTGRAY`, `SILVER`, `DARK_GRAY`, `GRAY`, `DIM_GRAY`, `LIGHT_SLATE_GRAY`, `SLATE_GRAY`, `DARK_SLATE_GRAY`, `BLACK`, `TRANSPARENT`, `DEFAULT_COLOR`, `DEFAULT_TITLE_COLOR`
-
-`THEME_TURQUOISE`, `THEME_TURQUOISE_DARK`, `THEME_GREEN`, `THEME_GREEN_DARK`, `THEME_BLUE`, `THEME_BLUE_DARK`, `THEME_PURPLE`, `THEME_PURPLE_DARK`, `THEME_MIDNIGHT`, `THEME_MIDNIGHT_DARK`, `THEME_YELLOW`, `THEME_YELLOW_DARK`, `THEME_ORANGE`, `THEME_ORANGE_DARK`, `THEME_RED, THEME_RED_DARK`, `THEME_GREY`, `THEME_GREY_DARK`, `THEME_DEFAULT`, `THEME_DEFAULT_DARK`
+`color` is a `Character Array`. `color` should be a color hex in the form of AARRGGBB, where A is alpha, R is red, g is green and B is blue. For example, "FFFF0000" is red. There is also macros that can be used. All the possible macros will be listed [here](assets/Andee_Color.md).<br/>
 ##### Example
 ```cpp
 widget1.setColor(WHITE);
