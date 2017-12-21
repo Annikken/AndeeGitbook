@@ -121,3 +121,6 @@
 
 ## Micro:bit
 
+* [API Reference](Microbit/AndeePxt.md)
+
+
