@@ -80,7 +80,7 @@
             * [Get Device Time](AnnikkenAndee/Andee101API.md#getdevtime)
             * [Get Device Date](AnnikkenAndee/Andee101API.md#getdevdate)
             * [Get Timestamp](AnnikkenAndee/Andee101API.md#timestamp)
-            * [Use Phone Features](AnnikkenAndee/Andee101API.md#devicefeature)
+            * [Use Device Features](AnnikkenAndee/Andee101API.md#devicefeature)
                 * [Vibrate Device](AnnikkenAndee/Andee101API.md#vibrate)
                 * [Gyroscope Sensor](AnnikkenAndee/Andee101API.md#gyro)
                 * [Linear Accelerometer Sensor](AnnikkenAndee/Andee101API.md/#lac)
