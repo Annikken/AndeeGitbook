@@ -2,7 +2,7 @@
 These are all the functions that can be found in the Andee Library
 
 ## Andee 101 functions {#andeefunc}
-The `Andee` Class has general functions that affects the way the Andee Shield works or what it does.
+The `Andee101` Class has general functions that affects the way the Andee Shield works or what it does.
 
 {% method %}
 ### Begin {#begin}
@@ -321,11 +321,11 @@ Andee.notification("Andee Notify","Just some text for the body of the SMS","Ande
 -----------------------
 
 {% method %}
-## AndeeHelper Functions {#helperfunc}
-The `AndeeHelper` Class has functions that help the user create the widgets on the app. A new instantiation of the class has to be made for each widget. For example,
+## Andee101Helper Functions {#helperfunc}
+The `Andee101Helper` Class has functions that help the user create the widgets on the app. A new instantiation of the class has to be made for each widget. For example,
 ```cpp
-AndeeHelper widget1;//1 instantiation
-AndeeHelper widget2;//Another instantiation
+Andee101Helper widget1;//1 instantiation
+Andee101Helper widget2;//Another instantiation
 
 widget1.setId(5);//when using one of the functions below
 ```
@@ -367,21 +367,6 @@ class void setType(type)
 ##### Example
 ```cpp
 widget1.setType(DATA_OUT);
-```
-{% endmethod %}
-
-{% method %}
-### Set Location {#setlocat}
-```cpp
-class void setLocation(row,column,span)
-```
-`row`, is a `char`, can be a number from 0 to 3<br/>
-`column`, is a `char`, can be a number from 0 to 3<br/>
-`span` uses macros as the input. Available macros are<br/>
-ONE_THIRD, TWO_THIRD, ONE_QUART, THREE_QUART, HALF, FULL
-##### Example
-```cpp
-widget1.setLocation(2,2,ONE_THIRD);
 ```
 {% endmethod %}
 
