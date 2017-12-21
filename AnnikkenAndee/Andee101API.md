@@ -108,6 +108,9 @@ timeStamp = Andee.getDeviceTimeStamp();
 ```
 {% endmethod %}
 
+## Using Device Features {#devicefeature}
+The functions below makes use of the functions on the smart device. If the device does not have a particular feature, for example not all smartphones have a gyroscope, then the function will not work
+
 {% method %}
 ### Vibrate Device {#vibrate}
 ```cpp
