@@ -5,8 +5,7 @@ These are all the functions that can be found in the Andee Library
 The `Andee` Class has general functions that affects the way the Andee Shield works or what it does.
 
 {% method %}
-#
-## Begin {#begin}
+### Begin {#begin}
 ```cpp
 class void begin()
 ```
