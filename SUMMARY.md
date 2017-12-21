@@ -93,7 +93,6 @@
         * [Andee101Helper Functions](AnnikkenAndee/Andee101API.md#helperfunc)
             * [Set Id](AnnikkenAndee/Andee101API.md#setid)
             * [Set Type](AnnikkenAndee/Andee101API.md#settype)
-            * [Set Location](AnnikkenAndee/Andee101API.md#setlocat)
             * [Set Coordinates](AnnikkenAndee/Andee101API.md#setcoord)
             * [Set Color](AnnikkenAndee/Andee101API.md#setcolor)
             * [Set Data](AnnikkenAndee/Andee101API.md#setdata)
