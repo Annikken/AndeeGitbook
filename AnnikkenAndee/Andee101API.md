@@ -5,7 +5,8 @@ These are all the functions that can be found in the Andee Library
 The `Andee` Class has general functions that affects the way the Andee Shield works or what it does.
 
 {% method %}
-### Begin {#begin}
+#
+## Begin {#begin}
 ```cpp
 class void begin()
 ```
@@ -401,24 +402,6 @@ widget1.setCoord(0,0,100,25);
 {% endmethod %}
 
 {% method %}
-### Set Input Mode {#setinput}
-```cpp
-class void setInputMode(mode)
-```
-`mode` uses macros as the input. Available macros are: <br/>
-For `BUTTON_IN` and `CIRCLE_BUTTON`, use `ACK` for acknowledged button presses or `NO_ACK` for a multi press button.<br/>
-
-For `SLIDER_IN`, use `ON_FINGER_UP` for a slider that updates the value upon lifting the finger from the screen,`ON_VALUE_CHANGE` for a slider that updates the value as soon as the values change or `NO_FINGER` for a slider that looks like a progress bar,with no interaction needed<br/>
-
-For `KEYBOARD_IN`, use `ALPHA_NUMERIC` for AlphaNumeric Keyboard, `ALPHA_NUMERIC_PW` for AlphaNumeric keyboard that hides the typed character after a few seconds, `NUMERIC` for a Numeric Keyboard with symbols or `NUMERIC_PW` for a Numeric Keyboard that hides typed characters after a few seconds
-##### Example
-```cpp
-widget1.setType(BUTTON_IN);
-widget1.setInputMode(ACK);
-```
-{% endmethod %}
-
-{% method %}
 ### Set Color {#setcolor}
 The widget has a few colors that can be customised. The widget body, widget body text, widget title and widget title text.
 ```cpp
@@ -438,7 +421,7 @@ class void setTitleTextColor(color)
 ```
 This is to set widget title text color<br/>
 
-`color` is a `Character Array`. `color` should be a color hex in the form of AARRGGBB, where A is alpha, R is red, g is green and B is blue. For example, "FFFF0000" is red. There is also macros that can be used. All the possible macros will be listed [here](assets/Andee_Color.md).<br/>
+`color` is a `Character Array`. `color` should be a color hex in the form of AARRGGBB, where A is alpha, R is red, g is green and B is blue. For example, "FFFF0000" is red. There are also macros that can be used. All the possible macros will be listed [here](assets/Andee_Color.md).<br/>
 ##### Example
 ```cpp
 widget1.setColor(WHITE);
@@ -506,12 +489,37 @@ widget1.setUnit(1.345,3);
 {% endmethod %}
 
 {% method %}
+### Update Widget {#update}
+```cpp
+class void update()
+```
+This function is very important to the Annikken Andee. If this function is not called, the widget will not appear. This function can be called at specific parts of the sketch to control the way the widget is updated.
+##### Example
+```cpp
+widget1.update();
+```
+{% endmethod %}
+
+{% method %}
+### Remove Widget {#remove}
+```cpp
+class void remove()
+```
+This function tells the connected device to remove the corresponding widget when called.
+##### Example
+```cpp
+widget1.remove();
+```
+{% endmethod %}
+
+{% method %}
 ### Set Min Max {#setminmax}
+**Note:**This function is only for `Slider` and `Analog Circle` Widgets
 ```cpp
 class void setMinMax(min,max)
 class void setMinMax(minFloat,maxFloat,decimalPlace)
 ```
-This function sets the minimum and maximum value for the slider and analog circle widgets.<br/>
+This function sets the minimum and maximum value for the `Slider` and `Analog Circle` widgets.<br/>
 `min` and `max` are `Integer`. <br/>
 `minFloat` and `maxFloat` are `Float` and a decimal place needs to be specified at `decimalPlace`
 ##### Example
@@ -521,6 +529,32 @@ or
 widget1.setMinMax(0.00,50.00,2);
 ```
 {% endmethod %}
+
+## Input Widget Functions {#inputwidget}
+###### The functions below are only needed if the `Slider`,`Button`,`Circle Button`,`Date`,`Time` and `Keyboard` widgets are used
+
+{% method %}
+### Set Input Mode {#setinput}
+```cpp
+class void setInputMode(mode)
+```
+`mode` uses macros as the input. Available macros are: <br/>
+For `BUTTON_IN` and `CIRCLE_BUTTON`, use `ACK` for acknowledged button presses or `NO_ACK` for a multi press button.<br/>
+
+For `SLIDER_IN`, use `ON_FINGER_UP` for a slider that updates the value upon lifting the finger from the screen,`ON_VALUE_CHANGE` for a slider that updates the value as soon as the values change or `NO_FINGER` for a slider that looks like a progress bar,with no interaction needed<br/>
+
+For `KEYBOARD_IN`, use `ALPHA_NUMERIC` for AlphaNumeric Keyboard, `ALPHA_NUMERIC_PW` for AlphaNumeric keyboard that hides the typed character after a few seconds, `NUMERIC` for a Numeric Keyboard with symbols or `NUMERIC_PW` for a Numeric Keyboard that hides typed characters after a few seconds<br/>
+
+Both `Date` and `Time` only have 1 input mode
+##### Example
+```cpp
+widget1.setType(BUTTON_IN);
+widget1.setInputMode(ACK);
+```
+{% endmethod %}
+
+## Slider Widget Specific Functions {#sliderfunc}
+###### The next 3 functions are only used for slider widgets
 
 {% method %}
 ### Move Slider Thumb {#moveslider}
@@ -565,6 +599,40 @@ sliderValue = widget1.getSliderValue();
 ```
 {% endmethod %}
 
+## Button Widget Specific Functions {#butfunc}
+##### The widgets `Button`,`Circle Button`,`Date` and `Time` widgets use the functions below
+
+{% method %}
+### isPressed {#ispress}
+```cpp
+class int isPressed()
+```
+This function is used to check if a button widget has been pressed. This function returns the number of times the button has been pressed and a `0` if the button is not pressed
+##### Example
+```cpp
+if(widget1.isPressed() > 0)
+{
+...........................
+}
+or
+int buttonPressed = widget1.isPressed();
+```
+{% endmethod %}
+
+{% method %}
+### Acknowledgement {#ack}
+```cpp
+class void ack()
+```
+This function will send an acknowledgement packet to the connected device. This is required when the input mode of the button widget has been set to acknowledgement
+##### Example
+```cpp
+widget1.ack();
+```
+{% endmethod %}
+
+## Keyboard Widget Specific Functions {#keyfunc}
+
 {% method %}
 ### Get Keyboard Message {#getkeyboard}
 ```cpp
@@ -575,8 +643,9 @@ This function is to get the reply when the Keyboard Widget is used. The function
 ```cpp
 widget1.getKeyboardMessage(&getReply);
 ```
-
 {% endmethod %}
+
+## Date Widget Specific Functions {#datefunc}
 
 {% method %}
 ### Set Default Date {#setdate}
@@ -615,6 +684,8 @@ widget1.getDateInput(&day,&month,&year);
 ```
 {% endmethod %}
 
+## Time Widget Specific Functions {#timefunc}
+
 {% method %}
 ### Set Default Time {#settime}
 ```cpp
@@ -635,58 +706,5 @@ class void getTimeInput(hour,minute,second)
 This function is used to get the time input from the Time widget. The values will be stored accordingly into `hour`,`minute`,`second`
 ```cpp
 widget1.getTimeInput(&hour,&minute,&second);
-```
-{% endmethod %}
-
-{% method %}
-### isPressed {#ispress}
-```cpp
-class int isPressed()
-```
-This function is used to check if a button widget has been pressed. This function returns the number of times the button has been pressed and a `0` if the button is not pressed
-##### Example
-```cpp
-if(widget1.isPressed() > 0)
-{
-...........................
-}
-or
-int buttonPressed = widget1.isPressed();
-```
-{% endmethod %}
-
-{% method %}
-### Acknowledgement {#ack}
-```cpp
-class void ack()
-```
-This function will send an acknowledgement packet to the connected device. This is required when the input mode of the button widget has been set to acknowledgement
-##### Example
-```cpp
-widget1.ack();
-```
-{% endmethod %}
-
-{% method %}
-### Update Widget {#update}
-```cpp
-class void update()
-```
-This function is very important to the Annikken Andee. If this function is not called, the widget will not appear. This function can be called at specific parts of the sketch to control the way the widget is updated.
-##### Example
-```cpp
-widget1.update();
-```
-{% endmethod %}
-
-{% method %}
-### Remove Widget {#remove}
-```cpp
-class void remove()
-```
-This function tells the connected device to remove the corresponding widget when called.
-##### Example
-```cpp
-widget1.remove();
 ```
 {% endmethod %}
