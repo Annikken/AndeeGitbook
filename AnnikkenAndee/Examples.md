@@ -35,21 +35,21 @@ You can set the location of your widget by one of two methods:
     ```cpp
     widget1.setLocation(1, 2, ONE_THIRD);
     ```
-    For an in depth explanation on setLocation(), refer to this [documentation](/AnnikkenAndee/methods.md#setlocat)
+    For an in depth explanation on setLocation(), refer to this [documentation](/AnnikkenAndee/AndeeAPI.md#setlocat)
   
   * Cartesian based system.
   This system is based on x and y coordinate with its origin at the top left corner, along with its height and width. 
     ```cpp
     widget1.setCoord(25, 25, 50, 25);
     ```
-  For an in depth explanation on setCoord() refer to this [documentation](/AnnikkenAndee/methods.md#setcoord)
+  For an in depth explanation on setCoord() refer to this [documentation](/AnnikkenAndee/AndeeAPI.md#setcoord)
 
 3. **Type**
 The Andee library provides a few different types of UI. To see how the widgets look like, refer to [Andee U/iOS](https://annikken.com/andee-u) or [Andee Android](https://annikken.com/andee-android).
     ```cpp
     widget1.setType(DATA_OUT);
     ```
-For an in depth explanation on setType() and options for type, refer to this [documentation](/AnnikkenAndee/methods.md#settype)
+For an in depth explanation on setType() and options for type, refer to this [documentation](/AnnikkenAndee/AndeeAPI.md#settype)
 
 4. **Colors**
 Every component of the widget can be customised by color.
@@ -69,7 +69,7 @@ To set body background color.
     ```cpp
     widget1.setColor("FF6D92A0");
     ```
-For an in depth explanation to set colours and predefined colors, refer to this [documentation](/AnnikkenAndee/methods.md#setcolor)
+For an in depth explanation to set colours and predefined colors, refer to this [documentation](/AnnikkenAndee/AndeeAPI.md#setcolor)
 
 5. **Display Data**
 To display text or data. We use the following methods.
