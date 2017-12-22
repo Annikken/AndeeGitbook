@@ -1,25 +1,39 @@
 # Summary
 
+## About
 
-## About 
-
-* [Preface](About/Preface.md)
+* [Preface](README.md)
 * [Andee Products](About/AnnikkenProducts.md)
 
 ## Getting Started
 
 * [Introduction](GettingStarted/Introduction.md)
 * [Andee Setup](GettingStarted/AndeeSetup.md)
-* [Micro:bit Setup](GettingStarted/MicrobitSetup.md)
+  * [Installing Arduino IDE](GettingStarted/AndeeSetup.md#install-arduino-ide)
+  * [Installing Annikken Andee Library](GettingStarted/AndeeSetup.md#install-andee-library)
+  * [Installing/Upgrading Firmware](GettingStarted/AndeeSetup.md#install-andee-firmware)
+    * [Andee U/Android](GettingStarted/AndeeSetup.md#andee-u-android)
+    * [Andee iOS](GettingStarted/AndeeSetup.md#andee-ios)
+
+
+
+  * [API Reference](AnnikkenAndee/Examples.md)
 
 ## Annikken Andee
 
+* [Introduction](AnnikkenAndee/Introduction.md)
 * [Andee U/iOS/Android](AnnikkenAndee/AndeeBoards.md)
-  * [Creating Widgets](AnnikkenAndee/CreatingWidgets.md)
-  * [Sending Data](AnnikkenAndee/SendingData.md)
-  * [Receiving Data](AnnikkenAndee/ReceivingData.md)
-  * [Responding to Events](AnnikkenAndee/RespondingToEvents.md)
-  * [API Reference](AnnikkenAndee/AndeeAPI.md)
+    * [Before You Code](AnnikkenAndee/BeforeYouCode.md)
+    * [Examples](AnnikkenAndee/Examples.md)
+        * [Creating Widgets](AnnikkenAndee/Examples.md#creating-widgets)
+            * [Creating Buttons](AnnikkenAndee/Examples.md#creating-buttons)
+            * [Creating Input Buttons](AnnikkenAndee/Examples.md#creating-input-buttons)
+            * [Creating Analog Dials](AnnikkenAndee/Examples.md#creating-analog-dials)
+            * [Creating Sliders](AnnikkenAndee/Examples.md#creating-sliders)
+        * [Updating The Widget](AnnikkenAndee/Examples.md#updating-the-widget)
+        * [Receiving Data](AnnikkenAndee/Examples.md#receiving-data)
+        * [Responding to Events](AnnikkenAndee/Examples.md#responding-to-events)
+    * [API Reference](AnnikkenAndee/AndeeAPI.md)
     * [Andee Functions](AnnikkenAndee/AndeeAPI.md#andeefunc)
         * [Begin](AnnikkenAndee/AndeeAPI.md#begin)
         * [Change Andee Name](AnnikkenAndee/AndeeAPI.md#changename)
@@ -118,5 +132,3 @@
                     * [Time Widget Specific Functions](AnnikkenAndee/Andee101API.md#timefunc)
                         * [Set Default Time](AnnikkenAndee/Andee101API.md#settime)
                         * [Get Time](AnnikkenAndee/Andee101API.md#gettime)
-
-## Micro:bit

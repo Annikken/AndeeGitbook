@@ -1,5 +1,5 @@
-# Annikken Andee
+# Annikken Andee Documentation
 
-Annikken Andee documentation provides tutorials and API references for creating widgets with the Annikken Andee Arduino Shields and the Micro:bit on your mobile device.
+Welcome to Annikken Andee documentation. The documentation is structured with Getting Started followed by Annikken Andee Products. We recommend reading through the Getting Started section for your relevant product before proceeding the product documentation.
 
-
+![](/assets/getting-started/gb-andee-boards.png)
