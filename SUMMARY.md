@@ -14,11 +14,7 @@
   * [Installing/Upgrading Firmware](GettingStarted/AndeeSetup.md#install-andee-firmware)
     * [Andee U/Android](GettingStarted/AndeeSetup.md#andee-u-android)
     * [Andee iOS](GettingStarted/AndeeSetup.md#andee-ios)
-
-
-
-  * [API Reference](AnnikkenAndee/Examples.md)
-
+    
 ## Annikken Andee
 
 * [Introduction](AnnikkenAndee/Introduction.md)
