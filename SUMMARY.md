@@ -28,7 +28,6 @@
             * [Creating Sliders](AnnikkenAndee/Examples.md#creating-sliders)
         * [Updating The Widget](AnnikkenAndee/Examples.md#updating-the-widget)
         * [Receiving Data](AnnikkenAndee/Examples.md#receiving-data)
-        * [Responding to Events](AnnikkenAndee/Examples.md#responding-to-events)
     * [API Reference](AnnikkenAndee/AndeeAPI.md)
     * [Andee Functions](AnnikkenAndee/AndeeAPI.md#andeefunc)
         * [Begin](AnnikkenAndee/AndeeAPI.md#begin)
