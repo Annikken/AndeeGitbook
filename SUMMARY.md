@@ -4,20 +4,16 @@
 
 * [Preface](README.md)
 * [Andee Products](About/AnnikkenProducts.md)
+    
+## Annikken Andee
 
-## Getting Started
-
-* [Introduction](GettingStarted/Introduction.md)
+* [Getting Started](AnnikkenAndee/Introduction.md)
 * [Andee Setup](GettingStarted/AndeeSetup.md)
   * [Installing Arduino IDE](GettingStarted/AndeeSetup.md#install-arduino-ide)
   * [Installing Annikken Andee Library](GettingStarted/AndeeSetup.md#install-andee-library)
   * [Installing/Upgrading Firmware](GettingStarted/AndeeSetup.md#install-andee-firmware)
     * [Andee U/Android](GettingStarted/AndeeSetup.md#andee-u-android)
     * [Andee iOS](GettingStarted/AndeeSetup.md#andee-ios)
-    
-## Annikken Andee
-
-* [Introduction](AnnikkenAndee/Introduction.md)
 * [Andee U/iOS/Android](AnnikkenAndee/AndeeBoards.md)
     * [Before You Code](AnnikkenAndee/BeforeYouCode.md)
     * [Examples](AnnikkenAndee/Examples.md)
