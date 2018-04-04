@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started {#get-started}
 
 This section will guide you in setting up your new Annikken Andee shield for your Arduino projects.
 

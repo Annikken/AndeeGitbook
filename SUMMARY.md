@@ -7,7 +7,7 @@
     
 ## Annikken Andee
 
-* [Getting Started](AnnikkenAndee/Introduction.md)
+* [Getting Started](GettingStarted/AndeeSetup.md#get-started)
 * [Andee Setup](GettingStarted/AndeeSetup.md)
   * [Installing Arduino IDE](GettingStarted/AndeeSetup.md#install-arduino-ide)
   * [Installing Annikken Andee Library](GettingStarted/AndeeSetup.md#install-andee-library)
