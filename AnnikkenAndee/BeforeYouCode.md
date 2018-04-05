@@ -18,7 +18,7 @@ To include them in the project. Insert the following code snippet at the top of 
 #include <SPI.h>
 #include <Andee.h>
 ```
-### Andee 101 {before-code-101}
+### Andee 101 {#before-code-101}
 For every project using Arduino 101, we require the following libraries:
 
 1. CurieBLE.h
