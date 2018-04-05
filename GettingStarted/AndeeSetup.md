@@ -4,7 +4,7 @@ This section will guide you in setting up your new Annikken Andee shield for you
 
 If you have just gotten your Annikken Andee shield, go through each step to ensure a smooth setup or you can skip to the relevant topic if you already have completed some of it.
 
-If you come across any issues, please check our [support](https://annikken.com/support) page for your relevant product. If information is not available to your issue, feel free to [contact us](https://annikken.com/about-us#contact-us).
+If you come across any issues, please check our [support](https://annikken.com/support) page for your relevant product. If the solution is not available there, feel free to [contact us](https://annikken.com/about-us#contact-us).
 
 # Annikken Andee Shield Setup
 

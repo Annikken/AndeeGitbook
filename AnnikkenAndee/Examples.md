@@ -193,13 +193,13 @@ Widgets such as button, slider, button inputs take inputs from your mobile devic
 **Button**
 You can check if button has been pressed by using ```isPressed()```.
 ```cpp
-if (button.isPress()) {
+if (button.isPressed()) {
     // turn on lights
 }
 ```
 You also can check the number of times the button has been pressed in a short duration
 ```cpp
-if (button.isPress() >= 2) {
+if (button.isPressed() >= 2) {
     // turn on hall lights
 } else {
     // turn on kitchen lights
@@ -209,8 +209,11 @@ if (button.isPress() >= 2) {
 **Slider**
 To get the slider value
 ```cpp
-int sliderIntValue = sliderInt.getSliderValue();
-float sliderFltValue = sliderFloat.getSliderValue();
+int sliderIntValue = 0;
+sliderInt.getSliderValue(&sliderIntValue,INT);
+
+float sliderFltValue = 0; 
+sliderFloat.getSliderValue(&sliderFltValue ,FLOAT);
 ```
 
 **Keyboard Input Button**
