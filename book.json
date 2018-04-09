@@ -1,6 +1,11 @@
 {
-    "plugins": [ "theme-api" ],
+    "plugins": [ "theme-api", "expandable-chapters", "insert-logo-link" ],
     "pluginsConfig": {
+		"expandable-chapters":{},
+		"insert-logo-link":{
+			"src": "/assets/logo.png",
+            "url": "http://annikken.com"
+		},
         "theme-api": {
             "languages": [
                 {
