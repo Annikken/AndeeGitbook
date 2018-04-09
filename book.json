@@ -3,7 +3,7 @@
     "pluginsConfig": {
 		"expandable-chapters":{},
 		"insert-logo-link":{
-			"src": "https://drive.google.com/open?id=1sag8cW8aLi8tLaYs7XWIPIuc0b2tdSRe",
+			"src": "https://www.annikken.com/images/annikken-app-logo.png",
             "url": "http://annikken.com"
 		},
         "theme-api": {
