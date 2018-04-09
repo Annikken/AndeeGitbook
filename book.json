@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api","collapsible-menu-ex" ],
+    "plugins": [ "theme-api" ],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
